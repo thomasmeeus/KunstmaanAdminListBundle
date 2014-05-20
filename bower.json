@@ -1,0 +1,7 @@
+{
+  "name": "AdminListBundle",
+  "version": "1.0.0",
+  "dependencies": {
+    "bourbon": "~3.1"
+  }
+}

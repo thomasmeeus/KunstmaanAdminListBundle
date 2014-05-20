@@ -1,5 +1,6 @@
 {% extends 'KunstmaanAdminBundle:Default:layout.html.twig' %}
 
+{#
 {% block extracss %}
     {{ parent() }}
     {% stylesheets '@KunstmaanAdminListBundle/Resources/public/css/*'
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
 {% endblock %}
+#}
 
 {% block extra_actions_header %}
     {% if adminlist.canAdd() or adminlist.canExport() %}
